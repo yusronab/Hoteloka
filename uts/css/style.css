@@ -1,0 +1,265 @@
+/* Home CSS */
+
+header{
+    background: teal;
+}
+
+header .nav-item{
+    padding-left: 1em;
+}
+
+.btn-booking{
+    color: white;
+    background-color: teal;
+    width: 30%;
+}
+
+.btn-booking:hover{
+    color: teal;
+    background-color: white;
+}
+
+.btn-cek{
+    background-color: teal;
+    color: white;
+}
+
+.btn-cek:hover{
+    background-color: white;
+    color: teal;
+    border: 1px solid teal;
+}
+
+.hotel-card:hover{
+    border: 2px solid teal;
+    border-radius: 6px;
+}
+
+.hotel-card-body{
+    color: black;
+}
+
+.hotel-card-body:hover{
+    color: teal;
+}
+
+.hotel-detail{
+    color: black;
+}
+
+.hotel-detail:hover{
+    color: teal;
+}
+
+.rating{
+    color: teal;
+}
+
+.rating:hover{
+    color: black;
+}
+
+.footer-content{
+    color: lavender;
+}
+
+.footer-content:hover{
+    color: white;
+}
+
+.footer-bank{
+    background-color: white;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .hotel-card img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .hotel-card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+  }
+  .car-section-2 {
+    padding: 1em;
+  }
+  .hotel-prev,
+  .hotel-next {
+    background-color: teal;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  @media (min-width: 768px) {
+    .hotel-card img {
+      height: 11em;
+    }
+  }
+
+  .breadcrumb{
+      background-color: white;
+  }
+
+  .bc{
+      color: teal;
+  }
+
+  .bc:hover{
+      color: black;
+  }
+
+  /* Detail CSS */
+  .img-detail{
+      cursor: pointer;
+      filter: grayscale(1) brightness(0.5);
+      transition: 0.3s;
+  }
+
+  .img-detail:hover{
+    filter: grayscale(0) brightness(1);
+  }
+
+  @media (max-width: 768px){
+      .img-detail{
+        filter: grayscale(0) brightness(1);
+      }
+  }
+
+  .hotel-sec-2{
+      color: white;
+      background-color: teal;
+      padding: 4px 20px 4px 20px;
+      border-radius: 20px;
+      text-transform: uppercase;
+  }
+
+  .hotel-sec-2:hover{
+    color: teal;
+    background-color: white;
+    padding: 4px 20px 4px 20px;
+    border-radius: 20px;
+    border: teal solid 1px;
+    text-transform: uppercase;
+}
+
+.detail-rating{
+    color: gold;
+}
+
+.detail-shield{
+    color: teal;
+}
+
+.btn-room-detail{
+    background-color: orangered;
+    color: white;
+}
+
+.btn-room-detail:hover{
+    background-color: white;
+    color: orangered;
+    border: orangered solid 1px;
+}
+
+.row-6-detail{
+    color: teal;
+    margin-top: 3%;
+    font-size: 100;
+}
+
+.map-7-detail{
+    border-radius: 10px;
+    border: black solid 3px;
+    height: 300px;
+}
+
+.icon-rest{
+    color: white;
+    background-color: goldenrod;
+    padding: 5px;
+    border-radius: 3px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.icon-bag{
+    color: white;
+    background-color: magenta;
+    padding: 5px;
+    border-radius: 3px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.icon-hospital{
+    color: white;
+    background-color: red;
+    padding: 5px;
+    border-radius: 3px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.icon-bank{
+    color: white;
+    background-color: green;
+    padding: 5px;
+    border-radius: 3px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.icon-museum{
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 3px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.wrapper-8-detail{
+    background-color: rgb(248, 248, 248);
+    border-radius: 7px;
+}
+
+.btn-8-detail{
+    background-color: teal;
+    color: white;
+}
+
+.btn-8-detail:hover{
+    background-color: teal;
+    color: white;
+}
+
+.card-8-detail{
+    color: teal;
+    background-color: rgb(213, 255, 255);
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.progress-detail{
+    background-color: teal;
+}
+
+/* Booking CSS */
+.body-booking{
+    background-color: rgb(243, 243, 243);
+}
